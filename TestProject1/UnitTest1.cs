@@ -33,6 +33,20 @@ namespace TestProject1
         }
 
         [Test]
+        public void Divide_NegativeNumber_ReturnsCorrectResult()
+        {
+            // Arrange
+            double a = -10;
+            double b = 5;
+
+            // Act
+            double result = Calculator.Divide(a, b);
+
+            // Assert
+            Assert.AreEqual(-2, result);
+        }
+
+        [Test]
         public void Divide_DivideByZero_ThrowsDivideByZeroException()
         {
             // Arrange
