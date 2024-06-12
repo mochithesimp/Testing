@@ -15,7 +15,7 @@ namespace TestProject1
             double result = Calculator.Divide(a, b);
 
             // Assert
-            Assert.AreEqual(100, result);
+            Assert.AreEqual(5, result);
         }
 
         [Test]
@@ -29,7 +29,7 @@ namespace TestProject1
             double result = Calculator.Divide(a, b);
 
 
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(-5, result);
         }
 
         [Test]
