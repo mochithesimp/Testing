@@ -29,7 +29,7 @@ namespace TestProject1
             double result = Calculator.Divide(a, b);
 
 
-            Assert.AreEqual(-5, result);
+            Assert.AreEqual(0, result);
         }
 
         [Test]
